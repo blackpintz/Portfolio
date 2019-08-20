@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "44a785ec793030adcc51f13f2fec701c",
+    "revision": "eec21772f145a652ce56da5abc75c154",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "ad46171dccd34d0b508a",
+    "revision": "8cbd0b25e54a74aef562",
     "url": "/Portfolio/static/css/main.2cce8147.chunk.css"
   },
   {
-    "revision": "0c355edcf6700ecb2ff2",
-    "url": "/Portfolio/static/js/2.a37bdac5.chunk.js"
+    "revision": "e8e74f19e4d208300b79",
+    "url": "/Portfolio/static/js/2.ac8315bd.chunk.js"
   },
   {
-    "revision": "ad46171dccd34d0b508a",
-    "url": "/Portfolio/static/js/main.26b51d29.chunk.js"
+    "revision": "8cbd0b25e54a74aef562",
+    "url": "/Portfolio/static/js/main.7e4d3a44.chunk.js"
   },
   {
     "revision": "02bb7fa0c0195f9aa52b",
     "url": "/Portfolio/static/js/runtime~main.aeacf694.js"
+  },
+  {
+    "revision": "353780cf571a58211ac4d51636007c86",
+    "url": "/Portfolio/static/media/Rose_v2.353780cf.jpg"
   },
   {
     "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
