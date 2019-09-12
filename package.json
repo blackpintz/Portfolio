@@ -15,7 +15,7 @@
     "react-transition-group": "^4.2.2",
     "uuid": "^3.3.3"
   },
-  "homepage": "https://blackpintz.github.io/portfolio",
+  "homepage": "https://blackpintz.github.io/Portfolio",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
