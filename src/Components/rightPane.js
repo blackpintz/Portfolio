@@ -3,7 +3,6 @@ import {Grid, Box, Link} from '@material-ui/core'
 
 
 export default function (props) {
-    console.log(props)
     return (
         <Grid item lg= {3} sm = {8} xs= {12}>
         <Box 

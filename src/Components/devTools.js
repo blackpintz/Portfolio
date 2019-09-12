@@ -3,7 +3,6 @@ import {Grid, Box, IconButton, Button, Tooltip} from '@material-ui/core'
 import uuid from 'uuid/v1'
 
 export default function  DevTools(props) {
-    console.log(props)
     return (
         <Grid item  xs = {12}>
         <Box component = 'div' className = {props.styles().devBox}>
