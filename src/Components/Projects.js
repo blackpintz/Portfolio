@@ -17,6 +17,10 @@ const useStyles = makeStyles(theme => ({
     width: 80,
     height: 80
   },
+  gridList: {
+    width: 330,
+    height: 110
+  },
   buttonColor: {
     backgroundColor: '#a1887f',
     textTransform: 'none',
@@ -34,6 +38,10 @@ const useStyles = makeStyles(theme => ({
   linkBox : {
       display: 'flex',
       justifyContent: 'center'
+  },
+  imageBox : {
+    display: 'flex',
+    justifyContent: 'center'
   }
 }));
 

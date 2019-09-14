@@ -19,9 +19,7 @@ export const portfolioStore = {
         description: 'A simple web app that creates a palette of different colors and enables one to copy a color to the clipboard. The app generates shades of each color chosen in the palette.',
         technologies: 'palette-n-shades.com is built using React.js with a node backend for cli tooling. Firebase provides the database solutions and semantic-ui is the css framework chosen.',
         devTools: [
-          {
-            name: 'Nodejs',
-            image: nodelogo},
+         
           {
             name: 'Semantic-ui',
             image: semanticlogo},
@@ -30,7 +28,12 @@ export const portfolioStore = {
             image: reactlogo},
           {
             name: 'Firebase',
-            image: firebaselogo}
+            image: firebaselogo
+          },
+          {
+            name: 'Nodejs',
+            image: nodelogo
+          }
             ]
       }
      ]
