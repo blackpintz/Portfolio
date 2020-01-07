@@ -21,9 +21,5 @@ export default function  DevTools(props) {
         <Button className = {props.styles().buttonColor} href = {props.githublink} target  = '_blank' rel="noreferrer">View source</Button>
         </Box>
         </Box>
-<<<<<<< HEAD
-=======
-        </Box>
->>>>>>> a668ca2dbcc17d4d7741d152d5b9766f8cbd5cf7
     )
 }

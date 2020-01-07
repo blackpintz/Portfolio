@@ -26,14 +26,10 @@ export const portfolioStore = {
         description: 'A simple web app that creates a palette of different colors and enables one to copy a color to the clipboard. The app generates shades of each color chosen in the palette.',
         technologies: 'palette-n-shades.com is built using React.js with a node backend for cli tooling. Firebase provides the database solutions and semantic-ui is the css framework chosen.',
         devTools: [
-<<<<<<< HEAD
           {
             name: 'Nodejs',
             image: nodelogo
           },
-=======
-         
->>>>>>> a668ca2dbcc17d4d7741d152d5b9766f8cbd5cf7
           {
             name: 'Semantic-ui',
             image: semanticlogo},
@@ -43,7 +39,6 @@ export const portfolioStore = {
           {
             name: 'Firebase',
             image: firebaselogo
-<<<<<<< HEAD
           }
         ],
         githublink: 'https://github.com/blackpintz/palette-n-shades'
@@ -79,14 +74,6 @@ export const portfolioStore = {
           }
         ],
         githublink: 'https://github.com/blackpintz/campApp'
-=======
-          },
-          {
-            name: 'Nodejs',
-            image: nodelogo
-          }
-            ]
->>>>>>> a668ca2dbcc17d4d7741d152d5b9766f8cbd5cf7
       }
      ]
 }
