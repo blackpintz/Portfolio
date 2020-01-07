@@ -17,6 +17,10 @@ const useStyles = makeStyles(theme => ({
     width: 80,
     height: 80
   },
+  gridList: {
+    width: 330,
+    height: 110
+  },
   buttonColor: {
     backgroundColor: '#a1887f',
     textTransform: 'none',
@@ -34,6 +38,10 @@ const useStyles = makeStyles(theme => ({
   linkBox : {
       display: 'flex',
       justifyContent: 'center'
+  },
+  imageBox : {
+    display: 'flex',
+    justifyContent: 'center'
   }
 }));
 
@@ -48,7 +56,7 @@ export default function (props) {
      justify = 'center' id = 'portfolio'>
     <LeftPane styles = {useStyles} portfolio = {props.portfolio.images}/>
     <RightPane styles = {useStyles} portfolio = {props.portfolio}/>
-    <DevTools styles = {useStyles} devIcons = {props.portfolio.devTools} />
+    <DevTools styles = {useStyles} devIcons = {props.portfolio.devTools} applink = {props.portfolio.link} githublink = {props.portfolio.githublink} />
     </Grid>
   )
 }

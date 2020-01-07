@@ -1,5 +1,5 @@
 import React from 'react'
-import {Box, Typography, IconButton} from '@material-ui/core'
+import {Box, Typography, GridList, GridListTile} from '@material-ui/core'
 import { makeStyles } from '@material-ui/core/styles';
 import aws from '../Images/aws_icon.svg'
 import git from '../Images/git_icon.svg'
@@ -11,31 +11,37 @@ const toolStyles = makeStyles (() => ({
       height: 100,
       width: 100,
       margin: 10
+    },
+    gridList: {
+      width: 350,
+      height: 100
     }
   }))
 
 function Tools()  {
     const classes = toolStyles()
         return (
-            <div>
-            <Box component = 'div' display = 'flex' justifyContent = 'center' mt = {20}>
+            <Box>
+            <Box component = 'div' display = 'flex' justifyContent = 'center' mt = {10}>
             <Typography variant = 'h4'>Tools I use</Typography>
             </Box>
-            <Box component = 'div' display = 'flex' justifyContent = 'center'>
-            <IconButton disabled = {true}>
-            <img alt = 'aws' src = {aws} className = {classes.toolImages}/>
-            </IconButton>
-            <IconButton disabled = {true}>
-            <img alt = 'dg' src = {dg} className = {classes.toolImages}/>
-            </IconButton>
-            <IconButton disabled = {true}>
-            <img alt = 'git' src = {git} className = {classes.toolImages}/>
-            </IconButton>
-            <IconButton disabled = {true}>
-            <img alt = 'vs' src = {vs} className = {classes.toolImages}/>
-            </IconButton>
+            <Box display = 'flex' justifyContent = 'center' mt = {2}>
+            <GridList cellHeight = {80} className = {classes.gridList} cols = {4}>
+            <GridListTile cols={1}>
+            <img src={aws} alt='aws' />
+            </GridListTile>
+            <GridListTile cols={1}>
+            <img src={dg} alt='dg' />
+            </GridListTile>
+            <GridListTile cols={1}>
+            <img src={git} alt='git' />
+            </GridListTile>
+            <GridListTile cols={1}>
+            <img src={vs} alt='vs' />
+            </GridListTile>
+            </GridList>
             </Box>
-            </div>
+            </Box>
         )
 }
 

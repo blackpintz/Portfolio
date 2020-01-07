@@ -6,11 +6,18 @@ import firebaselogo from './Images/firebase.svg'
 import colortheme1 from './Images/colortheme_1.png'
 import colortheme2 from './Images/colortheme_2.png'
 import colortheme3 from './Images/colortheme_3.png'
+import camp_1 from './Images/camp_1.png'
+import camp_2 from './Images/camp_2.png'
+import camp_3 from './Images/camp_3.png'
+import mongologo from './Images/Mongodb.svg'
+import herokulogo from './Images/Heroku.svg'
+
 
 export const portfolioStore = {
     Portfolios: [{
         id: uuid(),
-        link: 'palette-n-shades.com',
+        app: 'Palette-n-shades',
+        link: 'https://palette-n-shades.com',
         images: [
           colortheme1,
           colortheme2,
@@ -21,7 +28,8 @@ export const portfolioStore = {
         devTools: [
           {
             name: 'Nodejs',
-            image: nodelogo},
+            image: nodelogo
+          },
           {
             name: 'Semantic-ui',
             image: semanticlogo},
@@ -30,8 +38,42 @@ export const portfolioStore = {
             image: reactlogo},
           {
             name: 'Firebase',
-            image: firebaselogo}
-            ]
+            image: firebaselogo
+          }
+        ],
+        githublink: 'https://github.com/blackpintz/palette-n-shades'
+          
+      },
+      {
+        id: uuid(),
+        app: 'Social camp',
+        link: 'https://campenthusiasts.herokuapp.com/',
+        images: [
+          camp_1,
+          camp_2,
+          camp_3
+        ],
+        description: 'A social networking site where users can share campsites they have travelled to and post comments.',
+        technologies: 'On the backend, Social camp uses Express/Node.js on Heroku to handle user accounts and authentication. MongoDB database backs up the user data.',
+        devTools: [
+          {
+            name: 'Nodejs',
+            image: nodelogo
+          },
+          {
+            name: 'MongoDB',
+            image: mongologo
+          },
+          {
+            name: 'Heroku',
+            image: herokulogo
+          },
+          {
+            name: 'Semantic-ui',
+            image: semanticlogo
+          }
+        ],
+        githublink: 'https://github.com/blackpintz/campApp'
       }
      ]
 }

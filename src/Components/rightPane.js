@@ -8,7 +8,7 @@ export default function (props) {
         <Box 
         fontSize = {30}
         ml = {2}>
-        <Link href = 'https://palette-n-shades.com' target = '_blank' rel="noreferrer">{props.portfolio.link}</Link>
+        <Link href = {props.portfolio.link}  target = '_blank' rel="noreferrer">{props.portfolio.app}</Link>
         </Box>
         <Box 
         fontSize = {18} 
