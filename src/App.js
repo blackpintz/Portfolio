@@ -12,7 +12,8 @@ const styles = (theme => ({
   '@global': {
     'html, body, #root': {
       height: '100%',
-      backgroundColor: '#fff8e1'
+      backgroundColor: '#fff8e1',
+      overflow: 'auto'
       
     }
    
