@@ -1,27 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e217e9a22f238216fb4ba44f889fa538",
+    "revision": "dbcb05adc0b52f72b99e17232f3949c2",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "ad49d14df40a559333e6",
+    "revision": "b78f4f930e397f4d88ae",
     "url": "/Portfolio/static/css/2.3c1ddb0a.chunk.css"
   },
   {
-    "revision": "418ece211828d7f03ba3",
-    "url": "/Portfolio/static/css/main.349197ed.chunk.css"
+    "revision": "807ce974623bcb7988b1",
+    "url": "/Portfolio/static/css/main.9db40a93.chunk.css"
   },
   {
-    "revision": "ad49d14df40a559333e6",
-    "url": "/Portfolio/static/js/2.fec9b2dc.chunk.js"
+    "revision": "b78f4f930e397f4d88ae",
+    "url": "/Portfolio/static/js/2.8e00977f.chunk.js"
   },
   {
-    "revision": "418ece211828d7f03ba3",
-    "url": "/Portfolio/static/js/main.b4e01d42.chunk.js"
+    "revision": "807ce974623bcb7988b1",
+    "url": "/Portfolio/static/js/main.9a001893.chunk.js"
   },
   {
-    "revision": "b3174b240e06db086fcb",
-    "url": "/Portfolio/static/js/runtime~main.665a1c84.js"
+    "revision": "02bb7fa0c0195f9aa52b",
+    "url": "/Portfolio/static/js/runtime~main.aeacf694.js"
+  },
+  {
+    "revision": "5df1246b03844dac215930b944bd2c78",
+    "url": "/Portfolio/static/media/Heroku.5df1246b.svg"
+  },
+  {
+    "revision": "e08ed2d5bd220fba0331660930186fc0",
+    "url": "/Portfolio/static/media/Mongodb.e08ed2d5.svg"
   },
   {
     "revision": "353780cf571a58211ac4d51636007c86",
@@ -30,6 +38,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c7d08cc03de49bbf88a7f9c7204a8660",
     "url": "/Portfolio/static/media/aws_icon.c7d08cc0.svg"
+  },
+  {
+    "revision": "eded7182bb0df5d071f23d32f52dc4b4",
+    "url": "/Portfolio/static/media/camp_1.eded7182.png"
+  },
+  {
+    "revision": "fbfd60277a41a5ac4b65cf73c3e1e8e2",
+    "url": "/Portfolio/static/media/camp_2.fbfd6027.png"
+  },
+  {
+    "revision": "e6eac641fee986a29a550b771722e818",
+    "url": "/Portfolio/static/media/camp_3.e6eac641.png"
   },
   {
     "revision": "43c7461a362f38e992eacfe5815872db",
