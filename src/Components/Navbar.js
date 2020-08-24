@@ -50,7 +50,7 @@ export default function TheMenu() {
         <a href = 'https://github.com/blackpintz' target = '_blank' rel="noopener noreferrer">
         <img alt = 'github' src = {githubIcon} className = {classes.imgIcon}/>
         </a>
-        <a href = 'https://medium.com/blackpintz' target = '_blank' rel="noopener noreferrer">
+        <a href = 'https://medium.com/@blackpintz' target = '_blank' rel="noopener noreferrer">
         <img alt = 'github' src = {mediumIcon} className = {classes.imgIcon}/>
         </a>
       </Breadcrumbs>
