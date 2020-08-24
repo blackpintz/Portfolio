@@ -5,7 +5,7 @@ import Projects from './Components/Projects'
 import Tools from './Components/Tools'
 import Footer from './Components/Footer'
 import { withStyles } from '@material-ui/core/styles'
-import {Box, CssBaseline} from '@material-ui/core';
+import {Box, CssBaseline, Divider} from '@material-ui/core';
 import {portfolioStore} from './store'
 
 const styles = (theme => ({
@@ -27,6 +27,7 @@ function App(props) {
      {portfolioStore.Portfolios.map(p => (
       <Projects key = {p.id} portfolio = {p} />
      ))}
+     <Divider />
      <Tools />
      <Footer />
     </Box>

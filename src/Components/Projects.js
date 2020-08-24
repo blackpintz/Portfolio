@@ -8,10 +8,10 @@ import DevTools from './devTools'
 const useStyles = makeStyles(theme => ({
   root: {
     marginTop: 40,
+    marginBottom: 20
   },
   portfolioImage: {
-    width: 300,
-    height: 300
+    height: "auto"
   },
   toolImage: {
     width: 80,

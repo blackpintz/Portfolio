@@ -4,7 +4,7 @@ import {Toolbar, AppBar, Typography, Breadcrumbs, Link} from '@material-ui/core'
 import copyright from '../Images/copyright.svg'
 import twitterIcon from '../Images/twitter.svg'
 import githubIcon from '../Images/github.svg'
-
+import mediumIcon from '../Images/medium.svg'
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -62,6 +62,9 @@ export default function Footer() {
         </a>
         <a href = 'https://github.com/blackpintz' target = '_blank' rel="noopener noreferrer">
         <img alt = 'github' src = {githubIcon} className = {classes.imgIcon}/>
+        </a>
+        <a href = 'https://medium.com/blackpintz' target = '_blank' rel="noopener noreferrer">
+        <img alt = 'github' src = {mediumIcon} className = {classes.imgIcon}/>
         </a>
         </Breadcrumbs>
         </Toolbar>
