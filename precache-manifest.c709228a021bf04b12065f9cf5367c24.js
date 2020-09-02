@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "26678aeb48f88fc9fb340062c141e8f3",
+    "revision": "14bcc5aad0edf81fbab05b787814186e",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "c68d9d3e0498b9c9c867",
+    "revision": "047b2a939b2bae2bb612",
     "url": "/Portfolio/static/css/2.fb346933.chunk.css"
   },
   {
-    "revision": "0a9f37e8ee5b45dc7138",
+    "revision": "4d3aeb5779ffbc2ccd75",
     "url": "/Portfolio/static/css/main.d9f881bd.chunk.css"
   },
   {
-    "revision": "c68d9d3e0498b9c9c867",
-    "url": "/Portfolio/static/js/2.5e7b9e2e.chunk.js"
+    "revision": "047b2a939b2bae2bb612",
+    "url": "/Portfolio/static/js/2.8a62bba8.chunk.js"
   },
   {
-    "revision": "0a9f37e8ee5b45dc7138",
-    "url": "/Portfolio/static/js/main.b0402bed.chunk.js"
+    "revision": "4d3aeb5779ffbc2ccd75",
+    "url": "/Portfolio/static/js/main.ea975d6a.chunk.js"
   },
   {
     "revision": "d91279962157886b60df",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/Mongodb.e08ed2d5.svg"
   },
   {
-    "revision": "353780cf571a58211ac4d51636007c86",
-    "url": "/Portfolio/static/media/Rose_v2.353780cf.jpg"
+    "revision": "6a11e72cd1a88282c377cf9f093f632e",
+    "url": "/Portfolio/static/media/Rose_v2.6a11e72c.jpg"
   },
   {
     "revision": "c7d08cc03de49bbf88a7f9c7204a8660",
@@ -76,12 +76,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/paletteApp.f6ae706e.png"
   },
   {
+    "revision": "96889989ac4b01f4ecba1ab719890d4b",
+    "url": "/Portfolio/static/media/postgresql.96889989.svg"
+  },
+  {
+    "revision": "93e1161bf6e66a239a75222b6b0814ba",
+    "url": "/Portfolio/static/media/rails.93e1161b.svg"
+  },
+  {
     "revision": "f0793d9f85eb3f0d1c702c14d236ba9e",
     "url": "/Portfolio/static/media/reactjs.f0793d9f.svg"
   },
   {
-    "revision": "763ee8f1b484d5c39d5fbe347929924e",
-    "url": "/Portfolio/static/media/semantic-ui.763ee8f1.svg"
+    "revision": "eeb316de385736b76c35519bc0da5cce",
+    "url": "/Portfolio/static/media/semantic-ui.eeb316de.svg"
   },
   {
     "revision": "da43cdfde36db5bd3aea7a75f6ac93d2",
