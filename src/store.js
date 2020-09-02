@@ -6,9 +6,11 @@ import digitalOcean from './Images/dg_icon.svg'
 import firebaselogo from './Images/firebase.svg'
 import colortheme1 from './Images/paletteApp.png'
 import camp_1 from './Images/campApp.png'
+import budget from './Images/budget-app.png'
 import mongologo from './Images/Mongodb.svg'
 import herokulogo from './Images/Heroku.svg'
-
+import railslogo from './Images/rails.svg'
+import pglogo from './Images/postgresql.svg'
 
 export const portfolioStore = {
     Portfolios: [{
@@ -68,6 +70,31 @@ export const portfolioStore = {
           {
             name: 'Semantic-ui',
             image: semanticlogo
+          }
+        ],
+        githublink: 'https://github.com/blackpintz/campApp'
+      },
+      {
+        id: uuid(),
+        app: 'Decor Budget App',
+        link: 'https://budgetapp-for-decor.herokuapp.com/',
+        images: [
+          budget
+        ],
+        description: 'An app that groups payments of decor bought for designing specific sections of a home. The decors are divided into categories of specific rooms of a home. Example living room, bathroom etc.',
+        technologies: 'The app is built using Ruby on Rails, Postgresql database and bootstrap css framework.',
+        devTools: [
+          {
+            name: 'Ruby on Rails',
+            image: railslogo
+          },
+          {
+            name: 'Postgresql',
+            image: pglogo
+          },
+          {
+            name: 'Heroku',
+            image: herokulogo
           }
         ],
         githublink: 'https://github.com/blackpintz/campApp'
