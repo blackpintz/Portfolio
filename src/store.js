@@ -5,9 +5,8 @@ import reactlogo from './Images/reactjs.svg'
 import digitalOcean from './Images/dg_icon.svg'
 import firebaselogo from './Images/firebase.svg'
 import colortheme1 from './Images/paletteApp.png'
-import camp_1 from './Images/campApp.png'
+import game from './Images/axe-game.png'
 import budget from './Images/budget-app.png'
-import mongologo from './Images/Mongodb.svg'
 import herokulogo from './Images/Heroku.svg'
 import railslogo from './Images/rails.svg'
 import pglogo from './Images/postgresql.svg'
@@ -47,32 +46,15 @@ export const portfolioStore = {
       },
       {
         id: uuid(),
-        app: 'Social camp',
-        link: 'https://campenthusiasts.herokuapp.com/',
+        app: 'Axe game',
+        link: 'https://axe-phaser-game.netlify.app/',
         images: [
-          camp_1
+          game
         ],
-        description: 'A social networking site where users can post campsites they have travelled to.',
-        technologies: 'On the backend, Social camp uses Express/Node.js on Heroku to handle user accounts and authentication. MongoDB database backs up the user data.',
-        devTools: [
-          {
-            name: 'Nodejs',
-            image: nodelogo
-          },
-          {
-            name: 'MongoDB',
-            image: mongologo
-          },
-          {
-            name: 'Heroku',
-            image: herokulogo
-          },
-          {
-            name: 'Semantic-ui',
-            image: semanticlogo
-          }
-        ],
-        githublink: 'https://github.com/blackpintz/campApp'
+        description: 'A phaser 3 game.',
+        technologies: 'The app is built using javascript and phaser 3 and deployed on netlify. The game data is stored in an API.',
+        devTools: [],
+        githublink: 'https://github.com/blackpintz/RPG-game'
       },
       {
         id: uuid(),

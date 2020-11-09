@@ -5,6 +5,7 @@ import roseImage from '../Images/Rose_v2.jpg';
 import twitterIcon from '../Images/twitter.svg'
 import githubIcon from '../Images/github.svg'
 import mediumIcon from '../Images/medium.svg'
+import linkedIn from '../Images/linkedin.svg'
 
 const navStyles = makeStyles (theme => ({
   roseAvatar: {
@@ -44,6 +45,9 @@ export default function TheMenu() {
     <Link>rosewanjohi24@gmail.com</Link>
     </Box>
       <Breadcrumbs separator = '' aria-label = 'bread-crumb' className = {classes.breadcumb}>
+        <a href = 'https://www.linkedin.com/in/rosewanjohi/' target = '_blank' rel="noopener noreferrer">
+        <img alt = 'linkedin' src = {linkedIn} className = {classes.imgIcon}/>
+        </a>
         <a href = 'https://twitter.com/blackpintz' target = '_blank' rel="noopener noreferrer">
         <img alt = 'twitter' src = {twitterIcon} className = {classes.imgIcon}/>
         </a>

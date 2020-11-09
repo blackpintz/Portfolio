@@ -5,6 +5,7 @@ import copyright from '../Images/copyright.svg'
 import twitterIcon from '../Images/twitter.svg'
 import githubIcon from '../Images/github.svg'
 import mediumIcon from '../Images/medium.svg'
+import linkedIn from '../Images/linkedin.svg'
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -57,6 +58,9 @@ export default function Footer() {
         </Breadcrumbs>
         <Typography variant = 'subtitle2' className = {classes.title}>Copyright<span><img alt = "copyright" src = {copyright} /></span>2019. Rose Wanjohi. All Rights Reserved.</Typography>
         <Breadcrumbs separator = '' aria-label = 'bread-crumb'>
+        <a href = 'https://www.linkedin.com/in/rosewanjohi/' target = '_blank' rel="noopener noreferrer">
+        <img alt = 'linkedin' src = {linkedIn} className = {classes.imgIcon}/>
+        </a>
         <a href = 'https://twitter.com/blackpintz' target = '_blank' rel="noopener noreferrer">
         <img alt = 'twitter' src = {twitterIcon} className = {classes.imgIcon}/>
         </a>
