@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "14bcc5aad0edf81fbab05b787814186e",
+    "revision": "8991b29e051ddc4b2642dbb773077670",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "047b2a939b2bae2bb612",
+    "revision": "68c121d467e385ac5dcc",
     "url": "/Portfolio/static/css/2.fb346933.chunk.css"
   },
   {
-    "revision": "4d3aeb5779ffbc2ccd75",
+    "revision": "4963cf391affde67ad6a",
     "url": "/Portfolio/static/css/main.d9f881bd.chunk.css"
   },
   {
-    "revision": "047b2a939b2bae2bb612",
-    "url": "/Portfolio/static/js/2.8a62bba8.chunk.js"
+    "revision": "68c121d467e385ac5dcc",
+    "url": "/Portfolio/static/js/2.9f754fe1.chunk.js"
   },
   {
-    "revision": "4d3aeb5779ffbc2ccd75",
-    "url": "/Portfolio/static/js/main.ea975d6a.chunk.js"
+    "revision": "4963cf391affde67ad6a",
+    "url": "/Portfolio/static/js/main.a7eee8b4.chunk.js"
   },
   {
     "revision": "d91279962157886b60df",
@@ -28,10 +28,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/Heroku.5df1246b.svg"
   },
   {
-    "revision": "e08ed2d5bd220fba0331660930186fc0",
-    "url": "/Portfolio/static/media/Mongodb.e08ed2d5.svg"
-  },
-  {
     "revision": "6a11e72cd1a88282c377cf9f093f632e",
     "url": "/Portfolio/static/media/Rose_v2.6a11e72c.jpg"
   },
@@ -40,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/aws_icon.c7d08cc0.svg"
   },
   {
-    "revision": "e7fe85e2622e45420f7d7035d14b2639",
-    "url": "/Portfolio/static/media/campApp.e7fe85e2.png"
+    "revision": "47093b2be598e34c92651859aed51637",
+    "url": "/Portfolio/static/media/axe-game.47093b2b.png"
   },
   {
     "revision": "16c3f82a1584d8cc85c332ea4debdc2d",
@@ -62,6 +58,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0a3a0978834655eadc804efda1d3a443",
     "url": "/Portfolio/static/media/github.0a3a0978.svg"
+  },
+  {
+    "revision": "d5bd09771457d78960a3f04bc73704a0",
+    "url": "/Portfolio/static/media/linkedin.d5bd0977.svg"
   },
   {
     "revision": "4ca36749c168b37b4e8adb59247e85b7",
