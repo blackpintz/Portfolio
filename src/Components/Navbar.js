@@ -47,13 +47,13 @@ export default function TheMenu() {
     color = '#3e2723'
     textAlign = 'center'
     >
-    About Rose Wanjohi
+    Rose Wanjohi
     </Box>
     <Box 
     textAlign = 'center'
     mx='auto'
-    width='75%'>
-    Hi, I am Full-stack Engineer with a background in Actuarial Science and Sales. After my job contract as a Sales Manager ended, I went on a career hunt. I had been curious about online careers, so I started there. I discovered web development while trying out affiliate marketing. The owner of the course said I needed money to make money and suggested a few online jobs I could do on the side while I worked as an affiliate marketer. One job he recommended was web development. After taking a few courses in Javascript and React, I knew this is what I wanted to do for the rest of my life. It has been 2years+ since my journey began. I work as a Technical Support Engineer at Microverse. In my free time, I continue to build my skills as a developer and write articles on what I think have debugged that the internet hasn’t... yet.
+    width='54%'>
+    Hi, I am Rose, a Full-stack Engineer experienced in Javascript, React and Ruby on Rails. Please have a look at my project portfolio and reach out to me if you have any questions or would like to hire me.
     </Box>
     <Box 
     mt={1}
