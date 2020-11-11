@@ -45,9 +45,6 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-// const imgArr = portfolioStore.Portfolios.reduce((accumulator, currentValue) => {
-//   return [...accumulator, ...currentValue.images]
-// }, [])
 export default function (props) {
   const classes = useStyles();
   return (

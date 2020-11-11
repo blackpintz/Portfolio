@@ -24,6 +24,15 @@ function App(props) {
     <Box>
     <CssBaseline />
      <TheMenu />
+     <Divider />
+     <Box 
+     fontWeight="fontWeightBold"
+     mt = {1}
+     fontSize = 'h3.fontSize'
+     color = '#3e2723'
+     textAlign = 'center'>
+     Projects
+     </Box>
      {portfolioStore.Portfolios.map(p => (
       <Projects key = {p.id} portfolio = {p} />
      ))}
